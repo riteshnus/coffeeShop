@@ -6,8 +6,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
     <script src="{% static 'javascript/bootstrap.min.js' %}" crossorigin="anonymous"></script>
     <script src="{% static 'javascript/index.js' %}"></script>
     <title>Coffee Shop</title>
@@ -16,169 +19,110 @@
 <main class="container" role="main">
     <div class="card">
         {% for drink in drinks %}
-        <div class="card-header">
-            <h2 class="panel-title">{{ drink.name }}</h2>
-        </div>
-        <div class="card-body">
-            <div class="row">
-            {% if drink.price_tall > 0 %}
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="container-box">
-                        <img class="card-img-top" src="{% static 'images/download.jpg' %}" alt="Card image cap">
-                        <div class="type">Tall - {{ drink.price_tall }} $</div>
-                        <div class="input-group mx-auto" style="width: 140px;">
-                      <span class="input-group-btn">
-                          <button type="button" class="btn btn-success btn-number" onclick="itemAdded('{{ drink.name }}','tall')">
-                            <i class="fas fa-plus"></i>
-                          </button>
-                      </span>
-                            <input type="text" class="form-control input-number" id='{{ drink.name }}-tall' data-drink-type={{ drink.type }} value="0">
-                            <span class="input-group-btn">
-                          <button type="button" class="btn btn-warning btn-number" onclick="itemSubtract('{{ drink.name }}','tall')">
-                              <i class="fas fa-minus"></i>
-                          </button>
-                      </span>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}
-            {% if drink.price_grande > 0 %}
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="container-box">
-                        <img class="card-img-top" src="{% static 'images/grand.jpg' %}" alt="Card image cap">
-                        <div class="type">Grande - {{ drink.price_grande }} $</div>
-                        <div class="input-group mx-auto" style="width: 140px;">
-                      <span class="input-group-btn">
-                          <button type="button" class="btn btn-success btn-number" onclick="itemAdded('{{ drink.name }}','grande')">
-                            <i class="fas fa-plus"></i>
-                          </button>
-                      </span>
-                            <input type="text" class="form-control input-number" id='{{ drink.name }}-grande' data-drink-type={{ drink.type }} value="0">
-                            <span class="input-group-btn">
-                          <button type="button" class="btn btn-warning btn-number" onclick="itemSubtract('{{ drink.name }}','grande')">
-                              <i class="fas fa-minus"></i>
-                          </button>
-                      </span>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}
-                {% if drink.price_venti > 0 %}
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="container-box">
-                        <img class="card-img-top" src="{% static 'images/grand.jpg' %}" alt="Card image cap">
-                        <div class="type">Venti - {{ drink.price_venti }} $</div>
-                        <div class="input-group mx-auto" style="width: 140px;">
-                      <span class="input-group-btn">
-                          <button type="button" class="btn btn-success btn-number" onclick="itemAdded('{{ drink.name }}','venti')">
-                            <i class="fas fa-plus"></i>
-                          </button>
-                      </span>
-                            <input type="text" class="form-control input-number" id='{{ drink.name }}-venti' data-drink-type={{ drink.type }} value="0">
-                            <span class="input-group-btn">
-                          <button type="button" class="btn btn-warning btn-number" onclick="itemSubtract('{{ drink.name }}','venti')">
-                              <i class="fas fa-minus"></i>
-                          </button>
-                      </span>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
+            <div class="card-header">
+                <h2 class="panel-title">{{ drink.name }}</h2>
             </div>
-
-
-            {% comment %}<div class="card">
-{#                <img class="card-img-top" src="{% static 'images/images.jpg' %}" alt="Card image cap">#}
-                <div class="card-body">
-                    <button>yes</button>
+            <div class="card-body">
+                <div class="row">
+                    {% if drink.price_tall > 0 %}
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="container-box">
+                                <img class="card-img-top" src="{% static 'images/download.jpg' %}" alt="Card image cap">
+                                <div class="type">Tall - {{ drink.price_tall }} $</div>
+                                <div class="input-group mx-auto" style="width: 140px;">
+                      <span class="input-group-btn">
+                          <button type="button" class="btn btn-success btn-number"
+                                  onclick="itemAdded('{{ drink.name }}','tall')">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                      </span>
+                                    <input type="text" class="form-control input-number" id='{{ drink.name }}-tall'
+                                           data-drink-type={{ drink.type }} data-price={{ drink.price_tall }} value="0">
+                                    <span class="input-group-btn">
+                          <button type="button" class="btn btn-warning btn-number"
+                                  onclick="itemSubtract('{{ drink.name }}','tall')">
+                              <i class="fas fa-minus"></i>
+                          </button>
+                      </span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                    {% if drink.price_grande > 0 %}
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="container-box">
+                                <img class="card-img-top" src="{% static 'images/grand.jpg' %}" alt="Card image cap">
+                                <div class="type">Grande - {{ drink.price_grande }} $</div>
+                                <div class="input-group mx-auto" style="width: 140px;">
+                      <span class="input-group-btn">
+                          <button type="button" class="btn btn-success btn-number"
+                                  onclick="itemAdded('{{ drink.name }}','grande')">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                      </span>
+                                    <input type="text" class="form-control input-number" id='{{ drink.name }}-grande'
+                                           data-drink-type={{ drink.type }} data-price={{ drink.price_grande }}
+                                           value="0">
+                                    <span class="input-group-btn">
+                          <button type="button" class="btn btn-warning btn-number"
+                                  onclick="itemSubtract('{{ drink.name }}','grande')">
+                              <i class="fas fa-minus"></i>
+                          </button>
+                      </span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                    {% if drink.price_venti > 0 %}
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="container-box">
+                                <img class="card-img-top" src="{% static 'images/grand.jpg' %}" alt="Card image cap">
+                                <div class="type">Venti - {{ drink.price_venti }} $</div>
+                                <div class="input-group mx-auto" style="width: 140px;">
+                      <span class="input-group-btn">
+                          <button type="button" class="btn btn-success btn-number"
+                                  onclick="itemAdded('{{ drink.name }}','venti')">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                      </span>
+                                    <input type="text" class="form-control input-number" id='{{ drink.name }}-venti'
+                                           data-drink-type={{ drink.type }} data-price={{ drink.price_venti }}
+                                           value="0">
+                                    <span class="input-group-btn">
+                          <button type="button" class="btn btn-warning btn-number"
+                                  onclick="itemSubtract('{{ drink.name }}','venti')">
+                              <i class="fas fa-minus"></i>
+                          </button>
+                      </span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
                 </div>
-            </div>{% endcomment %}
-            {% comment %}{{ drink.type }}
-            {{ drink.price_tall }}
-            {{ drink.price_grande }}
-            {{ drink.price_venti }}{% endcomment %}
-        </div>
+            </div>
         {% endfor %}
     </div>
-<a class="" id="checkout" href="{% url 'checkout' %}">checkout</a>
-{% comment %}    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
 
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+    <div class="card mt-3 mb-5">
+        <div class="card-header">
+            <h2>Orders</h2>
         </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
+        <div class="card-body">
+            <table class="table table-borderless" id="orderTable">
+                <thead id="orderBody">
+                <tr>
+                    <th scope="col">Action</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Price</th>
+                </tr>
+                </thead>
+                {#  <tbody></tbody>#}
+            </table>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-
     </div>
-  </div>{% endcomment %}
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#demo-1">Launch Modal #1</button>
-<div class="modal fade" id="demo-1" tabindex="-1">
-    <div class="modal-dialog">
-     <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal"><i class="icon-xs-o-md"></i></button>
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title caps"><strong>Demo Modal #1</strong></h4>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Input Placeholder..." />
-            <span class="input-group-btn"><button class="btn btn-default" type="button">Action</button></span>
-          </div>
-        </div>
-      </div>
-       <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">&times;</button>
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#demo-2" data-dismiss="modal">Close current, Launch Modal #2</button>
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#demo-3" data-dismiss="modal">Close current, Launch Modal #3</button>
-        </div>
-     </div>
-    </div>
-  </div>
 </main>
-{% comment %}
-{% for drink in drinks %}
-    <p>{{ drink.name }}</p>
-    <p>{{ drink.type }}</p>
-    <p> {{ drink.price }}</p>
-{% endcomment %}
 </body>
 </html>
