@@ -1,8 +1,11 @@
 from django.urls import path
-from django.conf.urls import  url
 from . import views
+
+# router = routers.DefaultRouter()
+# router.register('/orders', views.OrderView, base_name="order")
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('checkout', views.checkout, name="checkout")
+    # url(r'^api/order/$', views.OrderView),
+    path('api/order/', views.OrderView, name='order'),
 ]

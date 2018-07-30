@@ -1,24 +1,36 @@
 from django.shortcuts import render
 from .models import Drink
+from rest_framework import status
+from .models import Order
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from .serializers import OrderSerializer
+
 
 # Create your views here.
 def index(request):
     drinks = Drink.objects.all()
     return render(request, 'index.html', {'drinks': drinks})
 
-def checkout(request):
-    return render(request, 'checkout.html')
 
-# class Drink:
-#     def __init__(self, name, type, price):
-#         self.name = name
-#         self.type = type
-#         self.price = price
-#
-# drinks = [
-#     Drink('Espresso', 'coffee', dict(tall=[1.95, 'www'], grande=2.05, Venti=2.35)),
-#     Drink('Latte', 'coffee', dict(tall=3.4, grande=4.45, Venti=4.65)),
-#     Drink('Cappuccino', 'coffee', dict(tall=3.15, grande=3.75, Venti=4.155)),
-#     Drink('Green Tea', 'tea', dict(tall=3.45, grande=4.25, Venti=4.45)),
-#     Drink('Hot tea', 'tea', dict(grande=1.95))
-# ]
+@api_view(['GET', 'POST'])
+def OrderView(request):
+
+    if request.method == 'GET':
+        orders = Order.objects.all()
+        serializer = OrderSerializer(orders, many=True)
+        return Response(serializer.data)
+
+    if request.method == 'POST':
+        requestOrdersArray = request.data['orders']
+        responseData = []
+        lastOrderId = 0
+        serializerForGet = OrderSerializer(Order.objects.all(), many=True)
+        if(len(serializerForGet.data) > 0):
+            lastOrderId = serializerForGet.data[-1]['orderId']
+        for order in requestOrdersArray:
+            serializer = OrderSerializer(data=order)
+            if serializer.is_valid():
+                serializer.save(orderId=lastOrderId+1)
+                responseData.append(serializer.data)
+        return Response(responseData, status=status.HTTP_201_CREATED)

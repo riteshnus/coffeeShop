@@ -1,5 +1,5 @@
 from django.db import models
-
+from datetime import datetime
 # Create your models here.
 
 class Drink(models.Model):
@@ -13,10 +13,10 @@ class Drink(models.Model):
         return self.name
 
 class Order(models.Model):
-    orderId = models.IntegerField
+    orderId = models.IntegerField(default=0)
     type = models.CharField(max_length=100)
     item = models.CharField(max_length=100)
-    volume = models.IntegerField
+    volume = models.IntegerField(default=0)
     size = models.CharField(max_length=100)
-    date = models.DateField(auto_now_add=True)
-
+    price = models.DecimalField(max_digits=10, decimal_places=2, null=True)
+    date = models.DateTimeField(default=datetime.now())
