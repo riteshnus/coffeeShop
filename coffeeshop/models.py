@@ -15,8 +15,8 @@ class Drink(models.Model):
 class Order(models.Model):
     orderId = models.IntegerField(default=0)
     type = models.CharField(max_length=100)
-    item = models.CharField(max_length=100)
-    volume = models.IntegerField(default=0)
+    name = models.CharField(max_length=100)
+    value = models.IntegerField(default=0)
     size = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=10, decimal_places=2, null=True)
     date = models.DateTimeField(default=datetime.now())

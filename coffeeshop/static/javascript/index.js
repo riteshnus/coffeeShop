@@ -66,3 +66,23 @@ function itemSubtract(itemName,size) {
     }
     insertOrder(orders);
 }
+
+
+function submitOrder() {
+    console.log('submitOrder')
+    var requestPayload = {}
+    requestPayload['orders'] = orders
+    console.log(requestPayload)
+    console.log('jon', JSON.stringify(requestPayload))
+    $.ajax({
+        url: 'http://localhost:8000/coffeeshop/api/order/',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(requestPayload),
+        success : function (response) {
+            console.log('got response', response)
+            alert('Thank you! order is placed')
+            location.reload(true)
+        }
+    })
+}

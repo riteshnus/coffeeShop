@@ -22,6 +22,7 @@ def OrderView(request):
         return Response(serializer.data)
 
     if request.method == 'POST':
+        print(dict(request.data))
         requestOrdersArray = request.data['orders']
         responseData = []
         lastOrderId = 0
