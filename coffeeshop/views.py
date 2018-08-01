@@ -22,7 +22,7 @@ def OrderView(request):
         return Response(serializer.data)
 
     if request.method == 'POST':
-        print(dict(request.data))
+        # print(dict(request.data))
         requestOrdersArray = request.data['orders']
         responseData = []
         lastOrderId = 0
@@ -34,4 +34,5 @@ def OrderView(request):
             if serializer.is_valid():
                 serializer.save(orderId=lastOrderId+1)
                 responseData.append(serializer.data)
-        return Response(responseData, status=status.HTTP_201_CREATED)
+                return Response(responseData, status=status.HTTP_201_CREATED)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
