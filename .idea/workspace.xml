@@ -2,170 +2,464 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aa96d4b-adaf-4178-8a5a-99b884bd4cc6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/__init__.py" afterPath="$PROJECT_DIR$/wego/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/settings.py" afterPath="$PROJECT_DIR$/wego/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/autocomplete.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/autocomplete.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/base.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/changelists.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/changelists.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/fonts.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/forms.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/login.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/responsive.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/responsive_rtl.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive_rtl.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/rtl.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/rtl.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/LICENSE-SELECT2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/vendor/select2/select2.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/vendor/select2/select2.min.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/css/widgets.css" afterPath="$PROJECT_DIR$/wego/static/admin/css/widgets.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/fonts/README.txt" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/LICENSE" afterPath="$PROJECT_DIR$/wego/static/admin/img/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/README.txt" afterPath="$PROJECT_DIR$/wego/static/admin/img/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/calendar-icons.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/calendar-icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/gis/move_vertex_off.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/gis/move_vertex_on.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-addlink.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-addlink.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-alert.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-alert.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-calendar.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-calendar.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-changelink.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-changelink.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-clock.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-clock.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-deletelink.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-deletelink.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-no.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-no.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-unknown-alt.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown-alt.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-unknown.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/icon-yes.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-yes.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/inline-delete.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/inline-delete.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/search.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/search.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/selector-icons.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/selector-icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/sorting-icons.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/sorting-icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/tooltag-add.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-add.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/img/tooltag-arrowright.svg" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-arrowright.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectBox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectFilter2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/actions.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/autocomplete.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/autocomplete.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/calendar.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/cancel.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/cancel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/change_form.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/change_form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/collapse.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/core.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/inlines.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/jquery.init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/popup_response.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/popup_response.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/prepopulate_init.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate_init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/timeparse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/urlify.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/urlify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/LICENSE-SELECT2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/az.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/da.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/de.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/el.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/en.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/es.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/et.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/he.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/id.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/is.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/it.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/km.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt-BR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/th.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-TW.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/select2.full.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/select2/select2.full.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/xregexp/xregexp.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/bootstrap.min.css" afterPath="$PROJECT_DIR$/wego/static/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/images/download.jpg" afterPath="$PROJECT_DIR$/wego/static/images/download.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/images/grand.jpg" afterPath="$PROJECT_DIR$/wego/static/images/grand.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/images/images.jpg" afterPath="$PROJECT_DIR$/wego/static/images/images.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/javascript/bootstrap.min.js" afterPath="$PROJECT_DIR$/wego/static/javascript/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/javascript/index.js" afterPath="$PROJECT_DIR$/wego/static/javascript/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/bootstrap-tweaks.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-tweaks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/default.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/font-awesome-4.0.3.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/font-awesome-4.0.3.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/css/prettify.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/prettify.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/css/base.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/css/highlight.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/highlight.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/css/jquery.json-view.min.css" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/jquery.json-view.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/img/favicon.ico" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/img/grid.png" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/grid.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/js/api.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/api.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/js/highlight.pack.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/highlight.pack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/docs/js/jquery.json-view.min.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/jquery.json-view.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/img/grid.png" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/grid.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/ajax-form.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/ajax-form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/coreapi-0.1.1.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/coreapi-0.1.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/csrf.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/csrf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/default.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/default.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/jquery-3.3.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/rest_framework/js/prettify-min.js" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/prettify-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/static/style.css" afterPath="$PROJECT_DIR$/wego/static/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/urls.py" afterPath="$PROJECT_DIR$/wego/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wego/wsgi.py" afterPath="$PROJECT_DIR$/wego/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/autocomplete.781713f30664.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/autocomplete.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.33897d8d3faf.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.a419cbad388f.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/changelists.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/changelists.f6dc691f8d62.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/dashboard.7ac78187c567.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/dashboard.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/fonts.494e4ec545c9.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/fonts.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.15ebfebbeb3d.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.2003a066ae02.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/login.a846c0e2ef65.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/login.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive.25d98d3909ed.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive_rtl.2a6652327ccd.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive_rtl.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/rtl.4c867197b256.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/rtl.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/LICENSE-SELECT2.7cf1de939f3b.md.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/LICENSE-SELECT2.md.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.3805311d5fc1.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.min.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.min.d44571114a90.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/widgets.5e372b41c483.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/widgets.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/LICENSE.d273d63619c9.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/LICENSE.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/LICENSE.2c54f4e1ca1c.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/LICENSE.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/README.837277fa1908.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/README.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/calendar-icons.39b290681a8b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/calendar-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_off.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_on.0047eba25b67.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_on.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-addlink.d519b3bab011.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-addlink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-alert.034cc7d8a67f.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-alert.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-calendar.ac7aea671bea.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-calendar.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-changelink.18d2fd706348.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-changelink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-clock.e1d4dfac3f2b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-clock.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-deletelink.564ef9dc3854.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-deletelink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-no.439e821418cd.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-no.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown-alt.81536e128bb6.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown-alt.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown.a18cb4398978.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-yes.d2f9f035226a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-yes.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/inline-delete.fec1b761f254.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/inline-delete.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/search.7cf54ff789c6.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/search.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/selector-icons.b4555096cea2.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/selector-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/sorting-icons.3a097b59f104.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/sorting-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-add.e59d620a9742.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-add.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-arrowright.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectBox.b49f008d186b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectBox.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectFilter2.2360f389ca5d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectFilter2.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.6bf7f1c0488d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.min.741d6cf65b97.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/DateTimeShortcuts.9328d2bf6579.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/DateTimeShortcuts.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/RelatedObjectLookups.ace63ab4b4e2.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/RelatedObjectLookups.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/autocomplete.cfd2c4dc8981.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/autocomplete.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/calendar.aae57adab5f6.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/calendar.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/cancel.1d69cba4b4bf.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/cancel.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/change_form.9e85003a1a38.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/change_form.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.17d715df2104.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.min.e1d03a2acd1e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/core.953326603873.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/core.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.bc34c02c43c8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.min.4b879f616086.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/jquery.init.95b62fa19378.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/jquery.init.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/popup_response.6ce3197f8fc8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/popup_response.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.ff9208865444.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.min.f4057ebb9b62.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate_init.0d3b53c37074.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate_init.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/timeparse.51258861a46a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/timeparse.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/urlify.3d46df4a0190.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/urlify.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.aacc43d6f308.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/LICENSE-SELECT2.7cf1de939f3b.md.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/LICENSE-SELECT2.md.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ar.a8bb27ec698c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ar.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/az.498dc667b34e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/az.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/bg.89cba4df3c86.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/bg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ca.2eaad4eb1950.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ca.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/cs.a68bcd293adc.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/cs.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/da.cbf897a0ae53.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/da.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/de.366d0aacb55f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/de.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/el.5629ce65500f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/el.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/en.05649b26c086.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/en.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/es.dc9dbf9d65df.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/es.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/et.c3953fb90b6b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/et.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/eu.11b925456433.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/eu.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fa.98e52839b583.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fa.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fi.659847deefdc.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fi.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fr.b06a3340de45.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fr.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/gl.78a87f7c0a51.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/gl.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/he.222d90ee0344.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/he.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hi.116a90b7111b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hi.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hr.e1d2c70b4df5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hr.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hu.db45641f10b2.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hu.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/id.6ee6c9c64b94.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/id.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/is.808c7d47acb5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/is.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/it.bae1661dbb77.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/it.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ja.19cf1ce8a03d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ja.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/km.6074a9c5575c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/km.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ko.74b17541834f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ko.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lt.a0783b1bd159.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lt.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lv.07fe2a580d17.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lv.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/mk.4986d7fc3ff3.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/mk.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ms.23e7b4369579.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ms.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nb.137e184004aa.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nb.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nl.c363ace8aa05.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nl.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pl.76465b54a6b0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pl.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt-BR.9efbbac4fda8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt-BR.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt.5d6ccc53b347.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ro.1ddc2b9980dc.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ro.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ru.d83609abf2e0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ru.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sk.a0f1a818d092.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sk.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr-Cyrl.2f3047aad49e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr-Cyrl.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr.157bc6eb978e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sv.2b21bb3f6110.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sv.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/th.2a4ece4c4355.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/th.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/tr.c1925d8817db.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/tr.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/uk.3d56f311192d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/uk.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/vi.3520aa7bdea8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/vi.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-CN.419002d3c6c1.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-CN.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-TW.c021537edf2c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-TW.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.a95323cb4760.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.min.da607360bcc6.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/bootstrap.min.04aca1f4cd3e.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/bootstrap.min.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/images/download.dcd719db5931.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/images/grand.ac5f7b190948.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/images/images.183f762c5f25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/bootstrap.min.67176c242e1b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/bootstrap.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/index.af630c290ee3.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/index.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-theme.min.00b93e6ea6fb.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-theme.min.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-tweaks.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap.min.86ba6b6fae66.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap.min.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/default.8d5591a6aabc.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/default.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/font-awesome-4.0.3.c1e1ea213abf.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/font-awesome-4.0.3.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/prettify.a987f72342ee.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/prettify.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/base.c1f714975cce.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/base.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/highlight.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/highlight.e0e4d973c6d7.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/jquery.json-view.min.a2e6beeb6710.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/jquery.json-view.min.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/favicon.5195b4d0f3eb.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/favicon.5195b4d0f3eb.ico.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/favicon.ico.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/img/grid.a4b938cf382b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/api.c9743eab7a4f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/api.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/highlight.pack.479b5f21dcba.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/highlight.pack.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/jquery.json-view.min.b7c2d6981377.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/jquery.json-view.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.3293616ec0c6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.83e37a11f9d7.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.8b27bc96115c.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.dcb26c7239d8.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.dcb26c7239d8.ttf.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.ttf.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.08eda92397ae.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.448c34a56d69.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.f4769f9bdb74.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.fa2772327f55.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.ttf.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/glyphicons-halflings-white.9bbc6e960299.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/glyphicons-halflings.90233c9067e9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/img/grid.a4b938cf382b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/ajax-form.0ea6e6052ab5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/ajax-form.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/bootstrap.min.5869c96cc8f1.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/bootstrap.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/coreapi-0.1.1.8851fb9336c9.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/coreapi-0.1.1.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/csrf.753b7a1f2ee7.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/csrf.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/default.b846d7d305c9.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/default.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/jquery-3.3.1.min.a09e13ee94d5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/jquery-3.3.1.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/prettify-min.709bfcc456c6.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/prettify-min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/style.228d212f9c76.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/style.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/autocomplete.781713f30664.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.17fd9d2dcc19.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.33897d8d3faf.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/base.a419cbad388f.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/changelists.f6dc691f8d62.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/dashboard.7ac78187c567.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/fonts.494e4ec545c9.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/fonts.cc6140298ba7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.15ebfebbeb3d.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.2003a066ae02.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/forms.77b3f8a70811.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/login.a846c0e2ef65.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive.25d98d3909ed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/responsive_rtl.2a6652327ccd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/rtl.4c867197b256.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/LICENSE-SELECT2.7cf1de939f3b.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.3805311d5fc1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/vendor/select2/select2.min.d44571114a90.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/widgets.5e372b41c483.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/css/widgets.a7251c097987.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/LICENSE.d273d63619c9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/fonts/README.2c3d0bcdede2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/LICENSE.2c54f4e1ca1c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/README.837277fa1908.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/calendar-icons.39b290681a8b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/gis/move_vertex_on.0047eba25b67.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-addlink.d519b3bab011.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-alert.034cc7d8a67f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-calendar.ac7aea671bea.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-changelink.18d2fd706348.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-clock.e1d4dfac3f2b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-deletelink.564ef9dc3854.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-no.439e821418cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown-alt.81536e128bb6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-unknown.a18cb4398978.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/icon-yes.d2f9f035226a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/inline-delete.fec1b761f254.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/search.7cf54ff789c6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/selector-icons.b4555096cea2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/sorting-icons.3a097b59f104.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-add.e59d620a9742.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/img/tooltag-arrowright.bbfb788a849e.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectBox.b49f008d186b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/SelectFilter2.2360f389ca5d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.6bf7f1c0488d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/actions.min.741d6cf65b97.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/DateTimeShortcuts.9328d2bf6579.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/admin/RelatedObjectLookups.ace63ab4b4e2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/autocomplete.cfd2c4dc8981.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/calendar.aae57adab5f6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/cancel.1d69cba4b4bf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/change_form.9e85003a1a38.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.17d715df2104.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/collapse.min.e1d03a2acd1e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/core.953326603873.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.bc34c02c43c8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/inlines.min.4b879f616086.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/jquery.init.95b62fa19378.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/popup_response.6ce3197f8fc8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.ff9208865444.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate.min.f4057ebb9b62.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/prepopulate_init.0d3b53c37074.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/timeparse.51258861a46a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/urlify.3d46df4a0190.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.aacc43d6f308.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/LICENSE-SELECT2.7cf1de939f3b.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ar.a8bb27ec698c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/az.498dc667b34e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/bg.89cba4df3c86.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ca.2eaad4eb1950.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/cs.a68bcd293adc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/da.cbf897a0ae53.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/de.366d0aacb55f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/el.5629ce65500f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/en.05649b26c086.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/es.dc9dbf9d65df.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/et.c3953fb90b6b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/eu.11b925456433.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fa.98e52839b583.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fi.659847deefdc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/fr.b06a3340de45.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/gl.78a87f7c0a51.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/he.222d90ee0344.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hi.116a90b7111b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hr.e1d2c70b4df5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/hu.db45641f10b2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/id.6ee6c9c64b94.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/is.808c7d47acb5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/it.bae1661dbb77.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ja.19cf1ce8a03d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/km.6074a9c5575c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ko.74b17541834f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lt.a0783b1bd159.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/lv.07fe2a580d17.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/mk.4986d7fc3ff3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ms.23e7b4369579.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nb.137e184004aa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/nl.c363ace8aa05.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pl.76465b54a6b0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt-BR.9efbbac4fda8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/pt.5d6ccc53b347.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ro.1ddc2b9980dc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/ru.d83609abf2e0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sk.a0f1a818d092.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr-Cyrl.2f3047aad49e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sr.157bc6eb978e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/sv.2b21bb3f6110.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/th.2a4ece4c4355.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/tr.c1925d8817db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/uk.3d56f311192d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/vi.3520aa7bdea8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-CN.419002d3c6c1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/i18n/zh-TW.c021537edf2c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.a95323cb4760.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/select2/select2.full.min.da607360bcc6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/bootstrap.min.04aca1f4cd3e.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/bootstrap.min.67176c242e1b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/javascript/index.af630c290ee3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-theme.min.00b93e6ea6fb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-theme.min.321ccd3adb83.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap-tweaks.b78ca7b14c57.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap.min.86ba6b6fae66.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/bootstrap.min.ec3bb52a00e1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/default.8d5591a6aabc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/font-awesome-4.0.3.1f9e9d1a5a1d.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/font-awesome-4.0.3.c1e1ea213abf.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/css/prettify.a987f72342ee.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/base.c1f714975cce.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/highlight.e0e4d973c6d7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/css/jquery.json-view.min.a2e6beeb6710.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/api.c9743eab7a4f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/highlight.pack.479b5f21dcba.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/docs/js/jquery.json-view.min.b7c2d6981377.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/fontawesome-webfont.83e37a11f9d7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/fonts/glyphicons-halflings-regular.08eda92397ae.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/ajax-form.0ea6e6052ab5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/bootstrap.min.5869c96cc8f1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/coreapi-0.1.1.8851fb9336c9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/csrf.753b7a1f2ee7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/default.b846d7d305c9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/jquery-3.3.1.min.a09e13ee94d5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/rest_framework/js/prettify-min.709bfcc456c6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/staticfiles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wego/static/style.228d212f9c76.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wego/settings.py" afterPath="$PROJECT_DIR$/wego/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -193,8 +487,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wego/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="307">
+              <caret line="128" column="13" lean-forward="false" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -203,8 +497,8 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,7 +530,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -315,11 +609,11 @@
         <option value="$PROJECT_DIR$/coffeeshop/static/javascript/index.js" />
         <option value="$PROJECT_DIR$/coffeeshop/views.py" />
         <option value="$PROJECT_DIR$/Wego/alv.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Wego/urls.py" />
         <option value="$PROJECT_DIR$/Wego/settings.py" />
         <option value="$PROJECT_DIR$/Wego/wsgi.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/wego/settings.py" />
       </list>
     </option>
@@ -729,7 +1023,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533095826065</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change the name">
+      <created>1533097072157</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533097072157</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -772,7 +1073,9 @@
     <MESSAGE value="new migration" />
     <MESSAGE value="URL modified" />
     <MESSAGE value="pipenv file changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="pipenv file changes" />
+    <MESSAGE value="change the name" />
+    <MESSAGE value="update the gunicorn dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the gunicorn dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1143,18 +1446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1169,10 +1464,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wego/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="307">
+          <caret line="128" column="13" lean-forward="false" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
           <folding />
         </state>
       </provider>
