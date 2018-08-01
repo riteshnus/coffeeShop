@@ -1,1 +1,1 @@
-web: gunicorn Wego.wsgi
+web: gunicorn wego.wsgi
