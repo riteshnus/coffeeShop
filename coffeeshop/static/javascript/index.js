@@ -69,13 +69,14 @@ function itemSubtract(itemName,size) {
 
 
 function submitOrder() {
+    var post_url = 'https://demo-wego.herokuapp.com/api/order';
     console.log('submitOrder')
     var requestPayload = {}
     requestPayload['orders'] = orders
     console.log(requestPayload)
     console.log('jon', JSON.stringify(requestPayload))
     $.ajax({
-        url: 'http://localhost:8000/coffeeshop/api/order/',
+        url: post_url,
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(requestPayload),
