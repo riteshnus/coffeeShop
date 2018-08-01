@@ -69,7 +69,7 @@ function itemSubtract(itemName,size) {
 
 
 function submitOrder() {
-    var post_url = 'https://demo-wego.herokuapp.com/api/order';
+    var post_url = 'https://demo-wego.herokuapp.com/api/order/';
     console.log('submitOrder')
     var requestPayload = {}
     requestPayload['orders'] = orders
