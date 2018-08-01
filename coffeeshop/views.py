@@ -5,7 +5,7 @@ from .models import Order
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .serializers import OrderSerializer
-
+from django.db import connection
 
 # Create your views here.
 def index(request):
@@ -34,5 +34,39 @@ def OrderView(request):
             if serializer.is_valid():
                 serializer.save(orderId=lastOrderId+1)
                 responseData.append(serializer.data)
-                return Response(responseData, status=status.HTTP_201_CREATED)
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            else:
+                return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response(responseData, status=status.HTTP_201_CREATED)
+
+
+
+def SalesView(request):
+    raw = Order.objects.raw("SELECT * FROM coffeeshop_order")
+    total_sale = 0
+    coffeeOrder = []
+    teaOrder = []
+    tallOrder = []
+    grandeOrder = []
+    ventiOrder = []
+    for obj in raw:
+        total_sale = total_sale+obj.price
+        if(obj.type == 'coffee'):
+            coffeeOrder.append(obj)
+        elif(obj.type == 'tea'):
+            teaOrder.append(obj)
+
+        if(obj.size == 'tall'):
+            tallOrder.append(obj)
+        elif(obj.size == 'grande'):
+            grandeOrder.append(obj)
+        elif(obj.size == 'venti'):
+            ventiOrder.append(obj)
+
+    return render(request, 'salesQuery.html',
+                  {'total_sale': total_sale,
+                   'coffeOrder': coffeeOrder,
+                   'teaOrder': teaOrder,
+                    'tallOrder': tallOrder,
+                   'grandeOrder': grandeOrder,
+                   'ventiOrder': ventiOrder
+                   })

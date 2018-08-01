@@ -9,14 +9,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-{#            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"#}
-{#            crossorigin="anonymous"></script>#}
+    {#            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"#}
+    {#            crossorigin="anonymous"></script>#}
     <script src="{% static 'javascript/bootstrap.min.js' %}" crossorigin="anonymous"></script>
     <script src="{% static 'javascript/index.js' %}"></script>
     <title>Coffee Shop</title>
 </head>
 <body>
 <main class="container" role="main">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/sales">Sales</a>
+        </li>
+    </ul>
+    <img style="margin: auto;display: flex;" src="{% static 'images/coffeeShop.png' %}">
     <div class="card">
         {% for drink in drinks %}
             <div class="card-header">

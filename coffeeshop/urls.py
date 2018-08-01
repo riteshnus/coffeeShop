@@ -8,4 +8,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     # url(r'^api/order/$', views.OrderView),
     path('api/order/', views.OrderView, name='order'),
+    path('sales/', views.SalesView, name='sales')
 ]
