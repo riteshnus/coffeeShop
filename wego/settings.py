@@ -26,7 +26,7 @@ SECRET_KEY = '6xox*a3_lqhom0!z2b!bs=iyl65=8#%w*$@rfo**%l%6ig*e7p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['demo-wego.herokuapp.com']
+ALLOWED_HOSTS = ['demo-wego.herokuapp.com', 'localhost']
 
 
 # Application definition
